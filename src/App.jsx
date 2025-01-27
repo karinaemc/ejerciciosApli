@@ -1,15 +1,11 @@
 
-import InputText from "./components/input";
 import "./App.css";
-import ButtonUsage from "./components/buttonComponent";
-import TextInput from "./components/textInput";
+import Ejercicio1 from "./pages/Lineales/Ejercicio1";
 
 function App() {
   return (
     <>
-      <InputText />
-      <ButtonUsage />
-      < TextInput/>
+    < Ejercicio1/>
     </>
   );
 }
